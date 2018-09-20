@@ -1,0 +1,299 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Manageable"
+- "ManagedCellDataSource"
+- "ManagedCellDelegate"
+- "ManagedTableCell"
+- "TableViewSectionHeader"
+- "TableViewCellEditActions"
+- "ManagedCollectionCell"
+provides-nominal:
+- "14JXTableManager21ManagedCellDataSourceP"
+- "14JXTableManager19ManagedCellDelegateP"
+- "14JXTableManager16ManagedTableCellC"
+- "14JXTableManager22TableViewSectionHeaderC"
+- "14JXTableManager24TableViewCellEditActionsC"
+- "14JXTableManager21ManagedCollectionCellC"
+provides-member:
+- ["14JXTableManager21ManagedCellDataSourceP", ""]
+- ["14JXTableManager19ManagedCellDelegateP", ""]
+- ["14JXTableManager16ManagedTableCellC", ""]
+- ["14JXTableManager22TableViewSectionHeaderC", ""]
+- ["14JXTableManager24TableViewCellEditActionsC", ""]
+- ["14JXTableManager21ManagedCollectionCellC", ""]
+provides-dynamic-lookup:
+- "didScroll"
+- "didSelectRow"
+- "identifier"
+- "rowHeight"
+- "type"
+- "updateData"
+- "viewSize"
+depends-top-level:
+- "AnyClass"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CGSize"
+- "IndexPath"
+- "Int"
+- "Manageable"
+- "ManagedCellDataSource"
+- "ManagedCellDelegate"
+- "ManagedCollectionCell"
+- "ManagedTableCell"
+- "String"
+- "TableViewCellEditActions"
+- "TableViewSectionHeader"
+- "UICollectionViewCell"
+- "UIScrollView"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewRowAction"
+depends-member:
+- ["Sa", "init"]
+- ["s13ArrayProtocolP", "init"]
+- ["SK", "init"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "automaticDimension"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "automaticDimension"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["Sl", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "automaticDimension"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "automaticDimension"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", ""]
+- ["SQ", "automaticDimension"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", ""]
+- ["SH", "automaticDimension"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["14JXTableManager21ManagedCellDataSourceP", "AnyClass"]
+- ["14JXTableManager21ManagedCellDataSourceP", "CGFloat"]
+- ["14JXTableManager21ManagedCellDataSourceP", "CGSize"]
+- ["14JXTableManager21ManagedCellDataSourceP", "String"]
+- ["14JXTableManager21ManagedCellDataSourceP", "identifier"]
+- ["14JXTableManager21ManagedCellDataSourceP", "rowHeight"]
+- ["14JXTableManager21ManagedCellDataSourceP", "type"]
+- ["14JXTableManager21ManagedCellDataSourceP", "updateData"]
+- ["14JXTableManager21ManagedCellDataSourceP", "viewSize"]
+- ["14JXTableManager19ManagedCellDelegateP", "IndexPath"]
+- ["14JXTableManager19ManagedCellDelegateP", "UIScrollView"]
+- ["14JXTableManager19ManagedCellDelegateP", "didScroll"]
+- ["14JXTableManager19ManagedCellDelegateP", "didSelectRow"]
+- ["14JXTableManager21ManagedCollectionCellC", "configureCell"]
+- ["14JXTableManager21ManagedCollectionCellC", "init"]
+- ["14JXTableManager16ManagedTableCellC", "configureCell"]
+- ["14JXTableManager16ManagedTableCellC", "init"]
+- ["SM", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "automaticDimension"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSObjectC", "automaticDimension"]
+- ["So8NSObjectC", "configureCell"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "automaticDimension"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["Sk", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["14JXTableManager24TableViewCellEditActionsC", "IndexPath"]
+- ["14JXTableManager24TableViewCellEditActionsC", "UITableViewRowAction"]
+- ["14JXTableManager24TableViewCellEditActionsC", "editAction"]
+- ["14JXTableManager24TableViewCellEditActionsC", "indexPath"]
+- ["14JXTableManager24TableViewCellEditActionsC", "init"]
+- ["14JXTableManager22TableViewSectionHeaderC", "Int"]
+- ["14JXTableManager22TableViewSectionHeaderC", "UITableView"]
+- ["14JXTableManager22TableViewSectionHeaderC", "headerView"]
+- ["14JXTableManager22TableViewSectionHeaderC", "height"]
+- ["14JXTableManager22TableViewSectionHeaderC", "init"]
+- ["14JXTableManager22TableViewSectionHeaderC", "section"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "automaticDimension"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "automaticDimension"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "automaticDimension"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So24UICollectionReusableViewC", "configureCell"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "init"]
+- ["So20UICollectionViewCellC", ""]
+- ["So20UICollectionViewCellC", "configureCell"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "init"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "automaticDimension"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- ["So23UIDataSourceTranslatingP", "automaticDimension"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "automaticDimension"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "automaticDimension"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "automaticDimension"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "automaticDimension"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- ["So30UIFocusItemScrollableContainerP", "automaticDimension"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "automaticDimension"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So11UIResponderC", "automaticDimension"]
+- ["So11UIResponderC", "configureCell"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "automaticDimension"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So12UIScrollViewC", "automaticDimension"]
+- ["So35UISpringLoadedInteractionSupportingP", "automaticDimension"]
+- ["So11UITableViewC", "automaticDimension"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "configureCell"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So15UITableViewCellC", "init"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "automaticDimension"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "automaticDimension"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So6UIViewC", "automaticDimension"]
+- ["So6UIViewC", "configureCell"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "automaticDimension"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "automaticDimension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "14JXTableManager21ManagedCellDataSourceP"
+- "14JXTableManager19ManagedCellDelegateP"
+- "14JXTableManager21ManagedCollectionCellC"
+- "14JXTableManager16ManagedTableCellC"
+- "SM"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sk"
+- "Sm"
+- "ST"
+- "14JXTableManager24TableViewCellEditActionsC"
+- "14JXTableManager22TableViewSectionHeaderC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIFocusItemScrollableContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So11UITableViewC"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lynn/Desktop/Swift2017/TableManager/JXTableManager/JXTableManager.h"
+- "/Users/Lynn/Desktop/Swift2017/TableManager/build/JXTableManager.build/Debug-iphonesimulator/JXTableManager.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f72c53ca06cde0ebf7c3e71e93266215"

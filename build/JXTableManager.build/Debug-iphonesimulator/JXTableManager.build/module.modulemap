@@ -1,0 +1,11 @@
+framework module JXTableManager {
+  umbrella header "JXTableManager.h"
+
+  export *
+  module * { export * }
+}
+
+module JXTableManager.Swift {
+    header "JXTableManager-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "bb5d045b0b65a35439831e98976e4edd"
+build_time: [1537466917, 90508000]
+inputs:
+  "/Users/Lynn/Desktop/Swift2017/TableManager/JXTableManager/JXTableViewManager.swift": [1537466332, 0]
+  "/Users/Lynn/Desktop/Swift2017/TableManager/JXTableManager/ManagedComponents.swift": [1537391533, 0]

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/Lynn/Library/Developer/Xcode/DerivedData/TableManager-cascqmndxjavitcivnpaznoppmfi/Build/Products/Debug-iphonesimulator/JXTableManager.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/Lynn/Desktop/Swift2017/TableManager/build/JXTableManager.build/Debug-iphonesimulator/JXTableManager.build/unextended-module.modulemap',
+    }]
+  }]
+}
